@@ -1,4 +1,10 @@
-# Miami landing page
-  [anding page layout](https://www.figma.com/file/nHz8bflIwJaWP3P99vKTH5/miami_home_new?node-id=0%3A2)
+# [Miami landing page] (https://github.com/ruslanvasylyshyn/landing_miami)
+  [Landing page design](https://www.figma.com/file/W8tiaInEAMv7zpEEGTxoIT/miami_home_new-(Copy)?node-id=0%3A1)
 
-  [DEMO LINK](https://<your_account>.github.io/layout_miami/)
+  [DEMO LINK](https://ruslanvasylyshyn.github.io/landing_miami/)
+
+- HTML
+- SCSS
+- Responsive design
+- BEM
+- JS
