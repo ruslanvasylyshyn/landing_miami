@@ -1,10 +1,10 @@
-@import "utils";
-@import "fonts";
-@import "typography";
-@import "reset";
+@import 'utils';
+@import 'fonts';
+@import 'typography';
+@import 'reset';
 
 html {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   scroll-behavior: smooth;
 }
 
@@ -19,10 +19,10 @@ body {
   transition: width $transition-time;
 }
 
-@import "header";
-@import "aboutUsScreen";
-@import "gallery";
-@import "consultation";
-@import "testimonials";
-@import "contactUs";
-@import "footer";
+@import 'header';
+@import 'aboutUsScreen';
+@import 'gallery';
+@import 'consultation';
+@import 'testimonials';
+@import 'contactUs';
+@import 'footer';

@@ -49,9 +49,8 @@
   padding: 17px 0 0 17px;
   outline: none;
   color: $dark-grey;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   transition: width $transition-time;
-  
 
   &::placeholder {
     font-size: 14px;
@@ -66,16 +65,15 @@
 }
 
 @media screen and (min-width: 768px) and (max-width: 1040px) {
-
   .container {
     width: 750px;
   }
 }
 
 @media screen and (max-width: 767px) {
-  .container {
-    width: 700px;
-  }
+  // .container {
+  //   width: 700px;
+  // }
 
   .contact__heading {
     margin-bottom: 53px;
@@ -88,6 +86,7 @@
 
   .contact__data {
     margin-bottom: 32px;
+    width: 100%;
   }
 
   .contact__form {
@@ -107,9 +106,9 @@
 }
 
 @media screen and (max-width: 500px) {
-  .container {
-    width: 454px;
-  }
+  // .container {
+  //   width: 454px;
+  // }
 
   .contact__data {
     flex-direction: column;
@@ -119,6 +118,10 @@
 
   .textarea {
     width: 280px;
+  }
+
+  .contact__adress {
+    width: 133px;
   }
 }
 

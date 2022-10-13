@@ -7,12 +7,12 @@
   transition: font-size $transition-time, line-height $transition-time;
 
   &::after {
-    content: "";
+    content: '';
     display: block;
     width: 20px;
     height: 13px;
     margin: 8px auto 0;
-    background-image: url("../images/crown.svg");
+    background-image: url('../images/crown.svg');
     background-size: cover;
     background-position: center;
   }
@@ -76,7 +76,6 @@
 }
 
 @media screen and (max-width: 1040px) {
-
   .container {
     width: 750px;
   }
@@ -100,6 +99,9 @@
     }
   }
 
+  .block__heading {
+    font-size: 36px;
+  }
 }
 
 @media screen and (max-width: 500px) {
@@ -112,5 +114,4 @@
   .container {
     width: 280px;
   }
-
 }
